@@ -1,0 +1,27 @@
+{
+  "name":"Over the air (OTA) updater",
+  "description":"Update your ESP board wirelessly",
+  "keywords":"OTA,over,the,air,update,Wifi,Wi-fi,etp,access,point,ap,http,async,websocket,webserver",
+  "authors":
+  {
+    "name": "Christan Jones",
+    "maintainer": true
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/UCChristianJones/ESP_OTAUpdate"
+  },
+  "version": "1.0.0",
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": ["espressif8266", "espressif32"],
+  "dependencies": [
+    {
+      "owner": "Christian Jones",
+      "name": "WifiSetup",
+      "version": "^1.0.0",
+      "platforms": ["espressif8266", "espressif32"],
+    },
+  ]
+}

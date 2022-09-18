@@ -1,0 +1,2 @@
+OTAUpdate	KEYWORD1
+Setup	KEYWORD2
